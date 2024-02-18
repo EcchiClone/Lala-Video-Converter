@@ -8,7 +8,7 @@ Batch adjust the quality (crf) of videos in folder or file units.
 
 The names of the converted files will include information about the changed crf, like `videoFile_crf24.mp4`
 
-Download executable file: [./dist/Lala Video Converter.exe](./dist/Lala Video Converter.exe)
+Download executable file: [./dist/Lala%20Video%20Converter.exe](./dist/Lala%20Video%20Converter.exe)
 
 
 
@@ -21,7 +21,7 @@ Download executable file: [./dist/Lala Video Converter.exe](./dist/Lala Video Co
 
 변환된 파일의 이름은 `videoFile_crf24.mp4` 와 같이 바뀐 crf에 대한 정보를 포함합니다.
 
-실행파일 다운로드 : [./dist/Lala Video Converter.exe](./dist/Lala Video Converter.exe)
+실행파일 다운로드 : [./dist/Lala%20Video%20Converter.exe](./dist/Lala%20Video%20Converter.exe)
 
 
 ![스크린샷1](./image/01.png)
