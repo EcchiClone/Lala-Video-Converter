@@ -21,7 +21,6 @@ wheels/
 share/python-wheels/
 *.egg
 *.whl
-*.exe
 *.dll
 *.zip
 *.tar.gz
