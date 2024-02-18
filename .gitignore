@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+downloads/
+*.egg-info/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+*.whl
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.msi
+*.iso
+*.img
+pip-wheel-metadata/
+
+# PyInstaller
+**/pyinstaller/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Local configuration file
+local_settings.py
