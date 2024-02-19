@@ -242,9 +242,9 @@ def convert_videos():
 
     # 입력값 검증
     if not crf_value.isdigit() or not 18 <= int(crf_value) <= 40:
-        crf_value = "24"
+        crf_value = "23"
         crf_entry.delete(0, tk.END)
-        crf_entry.insert(0, "24")
+        crf_entry.insert(0, "23")
 
     if not destination or (not is_valid_path(source_file.get()) and not is_valid_path(source_folder.get())):
         messagebox.showerror("오류", "소스와 대상 폴더를 모두 지정해주세요.")
@@ -428,7 +428,7 @@ source_file = tk.StringVar()
 source_folder = tk.StringVar()
 destination_folder = tk.StringVar()
 video_count_var = tk.StringVar(value="동영상 0개를 찾았습니다.")
-crf_value = tk.StringVar(value="24")  # 기본값 설정
+crf_value = tk.StringVar(value="23")  # 기본값 설정
 
 # 소스 파일 선택 UI 설정
 source_file_frame = tk.Frame(root)
@@ -463,7 +463,7 @@ destination_button.pack(side="left", padx=5)
 crf_frame = tk.Frame(root)
 crf_frame.pack(fill="x", padx=5, pady=5)
 
-tk.Label(crf_frame, text="crf [18 ~ 40](낮을수록 높은 퀄리티, 권장 24)").pack(side="left", padx=5)
+tk.Label(crf_frame, text="crf [18 ~ 40](낮을수록 높은 품질, 23 전후가 무난)").pack(side="left", padx=5)
 crf_entry = tk.Entry(crf_frame, validate='key', validatecommand=vcmd, textvariable=crf_value)
 crf_entry.bind("<FocusOut>", on_crf_focusout)
 crf_entry.pack(side="right")
