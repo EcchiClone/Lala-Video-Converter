@@ -33,3 +33,12 @@ Download executable file: [./dist/Lala%20Video%20Converter.exe](./dist/Lala%20Vi
 
 ![스크린샷1](./image/01.png)
 ![스크린샷1](./image/02.png)
+
+
+### Todo Memo
+체크박스로 만들면 좋을만한 것들
+- 같은이름 출력
+- 같은이름 출력 후 원본 대체하기
+- 원본삭제
+- 크기 비교 후 작은 것 남기기
+- 로그파일 남기기
